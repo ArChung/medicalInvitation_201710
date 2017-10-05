@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+X-WR-CALNAME:Very brief advice on smoking: 30 seconds to save a life
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20171005T054545Z
+UID:20171005T054545Z-846263320@marudot.com
+DTSTART;TZID="Asia/Shanghai":20171022T120000
+DTEND;TZID="Asia/Shanghai":20171022T125000
+SUMMARY:Perioperative nutrition for patients undergo GI surgeries
+LOCATION:高雄醫學大學附設中和紀念醫院 啟川大樓六樓 第二講堂
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Perioperative nutrition for patients undergo GI surgeries
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
